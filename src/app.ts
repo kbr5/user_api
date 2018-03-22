@@ -24,7 +24,7 @@ class App {
       const router = express.Router()
       router.get('/', (req, res) => {
         res.json({
-          message: 'Hello HX!'
+          message: 'Hello!'
         })
       })
       // all
